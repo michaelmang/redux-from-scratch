@@ -6,7 +6,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <React + Redux + Twitch = 😍/>
+        <h1>React + Redux + Twitch = 😍</h1>
       </div>
     )
   }
