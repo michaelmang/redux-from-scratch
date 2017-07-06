@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -60,4 +59,3 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('app')
 )
->>>>>>> b4094a4fa9e55bd6c362c1cfbb0fdf8199fa870f
