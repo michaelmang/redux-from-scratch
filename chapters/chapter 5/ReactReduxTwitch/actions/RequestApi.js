@@ -16,11 +16,11 @@ function RequestApi() {
       })
       .catch(e => {
         //dispatch FetchFailure, order 3
-        dispatch(FetchFailure(error))
+        dispatch(FetchFailure(e))
       });
 
     //dispatch FetchRequest, order 1
-    dispatch(FetchReques())
+    dispatch(FetchRequest())
   }
 }
 
