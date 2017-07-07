@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+h1,h2,h3,h4,h5,h6,p {
+  font-family: "Lato"
+}
+
+.icon {
+  cursor: pointer;
+  position: relative;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: "row";
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.book-card {
+  position: relative;
+  margin: 20px;
+}
