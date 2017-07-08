@@ -1,7 +1,7 @@
 //define the initial state
 const initialState = {
-  status: "",
-  streams: [],
+  status: "loading",
+  streams: [0,1,2],
   error: ""
 }
 
