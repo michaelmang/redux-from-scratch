@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +28,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.11.0",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
   }
