@@ -23,7 +23,7 @@ class App extends React.Component {
 
 //intialize store
 let store = createStore(
-  TwitchApp,
+  ApiApp,
   applyMiddleware( thunk, logger )
 );
 
