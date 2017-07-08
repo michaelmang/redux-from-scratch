@@ -16,9 +16,9 @@ class Streams extends React.Component {
   render() {
     const stateProps = this.props.store.getState();
     const status = stateProps.status;
-    const streamCardItems = stateProps.streams.map(() =>
+    const streamCardItems = stateProps.streams.map((stream) =>
       <StreamCard
-        key = { }
+        key = { stream }
       />
     );
     const error = stateProps.error;
