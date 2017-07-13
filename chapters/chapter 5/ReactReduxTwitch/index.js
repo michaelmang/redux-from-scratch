@@ -28,7 +28,7 @@ Raven.config('https://50ade61bac124605878ae86df7fb1cea@sentry.io/188244').instal
 //intialize store
 let store = createStore(
   TwitchApp,
-  applyMiddleware( thunk, logger, createRavenMiddleware(Raven, {}) )
+  applyMiddleware( thunk, logger, createRavenMiddleware(Raven) )
 );
 
 ReactDOM.render(
